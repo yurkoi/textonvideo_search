@@ -3,7 +3,7 @@ import pandas as pd
 import pinecone
 
 
-API_KEY = '1d3e38ba-e7a8-4e32-aca7-5e75da810365'
+API_KEY = 'your-key-here'
 
 pinecone.init(api_key=API_KEY, environment='us-east1-gcp')
 model = SentenceTransformer('multi-qa-mpnet-base-cos-v1')
